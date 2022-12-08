@@ -20,6 +20,9 @@ I am an energetic and single-minded person. I am looking forward a job as a fron
 * Git
 * Figma
 
+## Experience
+Althogh I have no experiance in development but I ready to study and do everithing depends on me to do quality work.
+
 ## Code example
 ```html
 <p>I am an energetic and single-minded person.</p>
