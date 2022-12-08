@@ -21,6 +21,11 @@ I am an energetic and single-minded person. I am looking forward a job as a fron
 * Figma
 
 ## Code example
+```html
+<p>I am an energetic and single-minded person.</p>
+
+<p class="text">I can realize my potencial and use my personal skills for realization purposes of company. </p>
+```
 
 ## Education
 University: Bachelor's degree in Odesa National Mechnicov University, Managment, 2012-2016
