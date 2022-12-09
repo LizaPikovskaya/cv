@@ -1,1 +1,1 @@
-https://github.com/LizaPikovskaya/rsschool-cv.git
+https://lizapikovskaya.github.io/rsschool-cv/

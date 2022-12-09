@@ -21,7 +21,8 @@ I am an energetic and single-minded person. I am looking forward a job as a fron
 * Figma
 
 ## Experience
-Althogh I have no experiance in development but I ready to study and do everithing depends on me to do quality work.
+Althogh I have no experiance in development but I ready to study and do everithing depends on me to do qua
+lity work.
 
 ## Code example
 ```html
