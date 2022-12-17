@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
 
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="icon" href="./assets/image/cv-icon.ico">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
@@ -52,11 +51,13 @@
       <section class="hero">
         <div class="container">
           <div class="thumb">
-            <img src="./assets/image/liza-pikovskaya.JPG" alt="Photo of Liza Pikovskaya" />
+            <img
+              src="./assets/image/liza-pikovskaya.JPG"
+              alt="Photo of Liza Pikovskaya">
           </div>
           <div class="hero-wrapper">
             <h1 class="hero-title">Elizaveta Pikovska</h1>
-            <h2 class="hero-subtitke">Junior Front-end developer</p>
+            <h2 class="hero-subtitle">Junior Front-end developer</h2>
           </div>
         </div>
       </section>
@@ -76,11 +77,27 @@
           <h2 class="summary-title underline">Summary</h2>
           <p class="summary-text">
             I am an energetic and single-minded person who like coding and
-            proggraming. I have passed two programming courses due to I could
-            completed several projects. Now I am looking for a job as a junior
-            frontend developer in a contemporary company with a friendly
-            atmosphere. I beleive that I can realize my potencial and use my
-            personal skills to realize purposes of company.
+            proggraming. I (want to be a)am looking for a job as a junior
+            frontend developer because I fall in love with the culture of IT
+            industry (have inspired by IT industry) and this type of work brings
+            me personal satisfaction.
+          </p>
+
+          <p class="summary-text">
+            Although I don’t have work experience but I studied hard to develop
+            all necessary skills that are relevant to this kind of profession.
+            I’ve gain a practical experience in courses where I worked on
+            personal and group projects. It also helped me to have an amazing
+            expertise in team work.
+          </p>
+
+          <p class="summary-text">
+            I have a strong desire to get a position which will allow me
+            implement my potential and use all my personal skills and experience
+            to achieve company’s goals. I’m excited to begin a career as a
+            frontend developer and learn more about this line of work from
+            industry professionals in a contemporary company with a friendly
+            atmosphere.
           </p>
         </section>
       </div>
@@ -98,7 +115,10 @@
         <section class="projects" id="projects">
           <h2 class="projects-title underline">Projects</h2>
 
-          <p class="projects-text"></p>
+          <ul class="projects-list">
+
+           <li> <a class="projects-link link" href="https://lizapikovskaya.github.io/goit-markup-hw-05/" target="_blank">WebStudio Project</a></li>
+          </ul>
         </section>
       </div>
       <div class="container is-flex">
@@ -122,17 +142,17 @@
             <ul class="contacts-list list">
               <li class="contacts-item location">Kyiv, Ukraine</li>
               <li class="contacts-item email">
-                <b>Email:</b> <a  class="contacts-link link" href="mailto:lizapikovskaya@gmail.com"
-                  >lizapikovskaya@gmail.com</a
-                >
+                <b>Email:</b>
+                <a
+                  class="contacts-link link"
+                  href="mailto:lizapikovskaya@gmail.com">lizapikovskaya@gmail.com</a>
               </li>
-              <li class="contacts-item slack">
-               <b>Slack:</b>LizaPikovska
-              </li>
+              <li class="contacts-item slack"><b>Slack:</b>LizaPikovska</li>
               <li class="contacts-item github">
-                <b>GitHub:</b><a  class="contacts-link link" href="https://github.com/LizaPikovskaya"
-                  >LizaPikovskaya</a
-                >
+                <b>GitHub:</b><a
+                  class="contacts-link link"
+                  href="https://github.com/LizaPikovskaya"
+                  target="_blank">LizaPikovskaya</a>
               </li>
               <li class="contacts-item discord">
                 <b>Discord:</b> LizaPikovskaya#2058
@@ -141,15 +161,32 @@
           </address>
         </section>
         <section class="code" id="code">
-        <h2 class="code-title underline" >Code</h2>
-        <p class="code-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, delectus velit, cum nostrum animi eligendi temporibus iusto commodi, iure vel nemo. Quo aspernatur dolorem nobis sint mollitia vero cupiditate veritatis?</p>
+          <h2 class="code-title underline">Code</h2>
+          <pre class="code-text">
+const refs = {
+  openModalBtn: document.querySelector("[data-modal-open]"),
+  closeModalBtn: document.querySelector("[data-modal-close]"),
+  modal: document.querySelector("[data-modal]"),
+};
+          </pre>
         </section>
       </div>
     </main>
     <footer>
-        <p></p>
-        <a href=""></a>
-        <img src="" alt="">
+      <div class="container">
+        <p class="footer-text">	&copy; 2022</p>
+        <a
+          class="contacts-link link"
+          href="https://github.com/LizaPikovskaya"
+          target="_blank">LizaPikovskaya</a>
+
+        <a class="logo-link" href="https://rs.school/js/" target="_blank">
+          <img
+            class="logo-image"
+            src="./assets/svg/rs_school_js.svg"
+            alt="logo">
+        </a>
+      </div>
     </footer>
   </body>
 </html>
